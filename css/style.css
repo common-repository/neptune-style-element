@@ -1,0 +1,41 @@
+.sticky-class {
+	background: #666;
+	padding: 10px;
+}
+.neptune-current {
+	border-color: #1cc4d8!important;
+	background-color: #1cc4d8!important;
+	opacity: .6;
+	padding: 10px;
+	transition: .3s;
+}
+.neptune-current > * {
+	position: relative;
+	padding: 10px;
+	background: red;
+	z-index: 9;
+	transition: .3s;
+}
+.neptune-current > * > *{
+	position: relative;
+	padding: 10px;
+	position:;
+	background: yellow;
+	z-index: 99;
+	transition: .3s;
+}
+.neptune-current > * > * > *{
+	position: relative;
+	padding: 10px;
+	background: blue;
+	z-index: 999;
+	transition: .3s;
+}
+#tail {
+	color: red;
+	z-index: 9999;
+	position: absolute;
+	background: #fff;
+	padding: 0 10px;
+	transition: .3s;
+}
